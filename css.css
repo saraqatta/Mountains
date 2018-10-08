@@ -1,0 +1,467 @@
+body{
+	margin: 0;
+	padding: 0;
+    font-family: 'Open Sans', sans-serif;
+	background-color: aliceblue;
+			background-image: url("img/Mountains Landing Page.png");
+
+	background-size: 100%;
+	color: aliceblue;
+	background-repeat: no-repeat;
+
+}
+
+.herosection{
+	width: 100%;
+	height: 492px;
+	padding-top: 0px;
+	box-sizing: border-box;
+
+	
+	
+	
+}
+
+                          /*------------------- menu start -----------------*/
+nav{
+width: 100%;
+	height: 113px;
+}
+
+.logo {
+	width: 50%;
+	float: left;
+	height: auto;
+}
+
+.logo a img{
+   
+	margin-left:130px;
+    margin-top: 29.5px;
+}
+
+
+a {
+    display: inline-block;
+}
+
+.menu{
+	float: right;
+	width: 50%;
+	height: auto;
+	text-align: right;
+
+	
+}
+
+.menu ul{
+	list-style-type: none;
+	position: absolute;
+    margin-top: 20px;
+    margin-left: -165px;
+}
+
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color:#36aeea;;
+	font-size: 14px;
+	font-weight: bold;
+	margin-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu ul li:first-child a {
+	margin-left: 0px;
+	text-decoration: underline;
+	
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.clear{
+	clear: both;
+}
+
+.containt{
+	width: 900px;
+	height: 280px;
+	border: 2px solid white;
+	margin-left: 175px;
+	padding-left: 50px;
+    padding-top: 50px;
+
+}
+.containt h1{
+	font-size: 34px;
+	text-align: left;
+	font-weight: normal;
+	line-height: .10;
+}
+.containt h2{
+	font-size:28px;
+	text-align: left;
+	font-weight: normal;
+	color:#56c7ff;
+}
+
+.containt p{
+	width: 350px;
+	font-size:16px;
+	text-align: left;
+	font-weight: normal;
+}
+
+ button.btn{
+	background-color: #36aeea;
+	width: 250px;
+	height: 60px;
+	border: 0;
+	border-radius: 5px;
+	margin-top: 20px;
+	color: aliceblue;
+	font-size: 20px;
+	cursor: pointer;
+
+}
+
+/*------------------------------------   1 end ----------------------*/
+
+.section {
+    width: 100%;
+    height: 750px;
+	box-sizing: border-box;
+	background-image: url("img/Untitled-3.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+.containt1{
+	width: 345px;
+	height: 300px;
+	margin-left: 108px;
+    margin-top: 85px;
+	float: left;
+	position: absolute;
+	    box-sizing: border-box;
+
+
+
+}
+
+.containt1 h2,.containt1 p{
+	color: black;
+	font-weight: normal;
+	text-align: left;	
+}
+
+.containt1 p{
+	font-size: 14px;
+}
+
+ img.img{
+	float: left;
+	     margin-top: -233px;
+    margin-left: 470px;
+	
+}
+
+ img.pic{
+ float: left;
+	 margin-left: 543px;
+    margin-top: -30px;
+}
+/*------------------------- end --------------------------------*/
+.section2 {
+    width: 100%;
+    height: 950px;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 1140px;
+	height: auto;
+	    margin: 0 auto;
+
+}
+
+h2.text{
+	color: black;
+	text-align: center;
+	font-weight: normal;
+    margin-top: 100px;
+	padding-bottom: 50px;
+
+}
+
+
+.a{
+	float: left;
+}
+
+
+
+img.a.b{
+    margin-top: -385px;
+    display: inline-block;	
+}
+
+.z{
+	display: inline-block;
+	width: 350px;
+	height: 350px;
+	    position: absolute;
+    margin-left: 400px;
+	    margin-top: 53px;
+
+}
+
+.z h3, .z p, .z span{
+	color: black;
+	text-align: center;
+
+}
+
+.z h3{
+	font-size: 20px;
+}
+
+.z p{
+	font-size: 14px;
+		font-weight: normal;
+}
+
+.z span{
+    margin-left: 160px;
+    margin-top: 45px;
+    position: absolute;
+}
+
+.z.b{
+	margin-top: 425px;
+    margin-left: 20px;
+}
+
+.z.u{
+	margin-top: 425px;
+    margin-left: 777px;
+}
+
+/*------------------------ end ------------------------------*/
+
+.section3{
+	width: 100%;
+	height: 456px;
+	background-image: url("img/000.png") ;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+form.form {
+    margin-top: 325px;
+    display: inline-block;
+    margin-left: 78px;
+}
+
+input.input {
+    width: 250px;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+
+
+span.note{
+	color:red;
+	font-size: 12px;
+	margin-left: 78px;
+	font-weight: bold;
+}
+
+/*-------------------------------- end -------------------------------*/
+.section4{
+	    width: 100%;
+    height: 580px;
+    box-sizing: border-box;
+	background-image: url("img/backgr.png");
+	    background-size: 100%;
+
+}
+.side{
+	width: 25%;
+	height: 400px;
+	float: left;
+}
+
+.side h2,.side p{
+	color: black;
+	text-align: center;
+}
+
+.side img{
+	display: inline-block;
+	    margin-left: 65px;
+}
+.side h2{
+	font-size: 20px;
+}
+
+.side p{
+	width: 192px;
+	font-size: 14px;
+	opacity: .5;
+     margin-left: 40px;
+
+}
+
+img.icon {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -108px;
+}
+
+
+/*----------------------------- end ---------------------------------------*/
+.section5{
+	   width: 100%;
+    height: 365px;
+	    box-sizing: border-box;
+
+}
+
+
+.clint{
+	width: 50%;
+	height: 400px;
+	float: left;
+}
+
+.clint p{
+	font-size: 18px;
+	color: black;
+	text-align: left;
+	    width: 485px;
+
+}
+
+.clint img{
+	width: 69px;
+	height: 69px;
+	border-radius: 50%;
+	margin-top: 30px;
+    margin-left: 20px;
+	
+}
+
+.clint h3{
+	display: inline-block;
+	color: dodgerblue;
+	    font-size: 20px;
+    margin-top: 51px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+/*----------------------------- end ---------------------------------------*/
+
+.section6{
+	width: 100%;
+	height: 701px;
+	background-image: url("img/back2.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.form1{
+	background-image: url("img/form.png");
+	width: 514px;
+	height: 496px;
+	border-radius: 10px;
+    position: absolute;
+    margin-left: 440px;
+    margin-top: 130px;}
+
+.form1 h2{
+	color: dodgerblue;
+	text-align: center;
+	font-weight: normal;
+    margin-bottom: 5px;
+	
+}
+
+.form1 p{
+	font-size: 18px;
+	text-align: center;
+	margin-top: 0;
+	    padding-bottom: 10px;
+
+}
+
+.input1 input{
+	    width: 495px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.input1 button{
+	    width: 400px;
+    height: 50px;
+    background-color: dodgerblue;
+    color: aliceblue;
+    border: 0;
+    margin-top: 35px;
+    margin-left: 53px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+p.copy{
+	font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+	opacity: .5;
+	font-weight: normal;
+	text-align: left;
+	margin-left: 115px;
+    margin-top: 50px;
+	display: inline-block;
+
+}
+
+
+.social {
+float: right;
+	margin-right: 115px;
+	margin-top: 50px;
+	font-size: 15px;
+	color: aliceblue;
+}
+
+.social i{
+	color: aliceblue;
+	margin-right: 10px;
+	font-size: 16px;
+}
+
+.social i:hover{
+	color:dodgerblue;
+}
+
+
+
+.footer {
+    background-color: black;
+	width: 100%;
+    height: 110px;
+}
+
